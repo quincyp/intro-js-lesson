@@ -17,8 +17,8 @@ Make sure to code-along during lecture.
     let text = "this is a sentence";
 
     // Placing the variable into a function()
-    alert(text);
-    console.log(text);
+    // alert(text);
+    // console.log(text);
 
     // 7 Primitive Data Types
         /*
