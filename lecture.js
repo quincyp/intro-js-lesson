@@ -38,6 +38,13 @@ Make sure to code-along during lecture.
         */
 
 // 4. Creating Functions (+ Event Listeners?)
+    // Declaring functions
+
+    // Invoking functions
+
+    // Scope local and global
+
+    // Parameters as input
 
 // 5. Strings
 

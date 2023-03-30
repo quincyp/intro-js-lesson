@@ -26,3 +26,18 @@ console.log(rich);
 console.log(person);
 
 console.log(person + " is rich, this is " + rich + " because they have this much $" + bankAccount )
+
+
+let student = "christy";
+console.log(student);
+student = ava;
+console.log(student);
+
+/*
+========== LESSON 2 - FUNCTIONS ==========
+*/
+// 1. Create a doubleNumber function that takes in 1 number parameter and returns double the value.
+
+// 2. Create a squareNumber function that takes in 1 number parameter and returns the square
+
+// 3. Create a productNumber function that takes in 2 number parameters and returns the product of the 2 numbers
