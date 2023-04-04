@@ -95,16 +95,27 @@ Make sure to code-along during lecture.
         return height * area(length,width);
     }
 
-    volume(3, 5, 10);
+    // volume(3, 5, 10);
 
     // Parameters as input
 
 
     // Arrow Functions
+    const volumeArrow1 = (length, width, height) => (height * length * width);
 
-// 5. Strings
+    const volumeArrow2 = (length, width, height) => {return (height * length * width)};
 
-// 6. Numbers
+    const volumeArrow3 = (length, width, height) => {
+        return height * length * width;
+    };
+
+    console.log(volumeArrow1(3, 5, 10));
+    console.log(volumeArrow2(3, 5, 10));
+    console.log(volumeArrow3(3, 5, 10));
+
+// 5. Numbers
+    
+// 6. Strings
 
 // 7. Arrays and Loops
 
