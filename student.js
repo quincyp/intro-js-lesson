@@ -50,12 +50,16 @@ Complete the following numbered tasks:
 */
 // 1. Create a sumOfThree function statement that takes in 3 number parameter and returns sum.
 
-// 2. Create a productofThree function expression that takes in 3 number parameter and returns the quotient.
+// 2. Create a productofThree function expression that takes in 3 number parameter and returns the product.
 
 // 3. Create a getRemainder arrow function that takes in 2 number parameters and returns the remainder of the first number divided by the second number
 
 // 4. Create a getRootRounded function that takes in 1 number, and returns the absolute value's square root, rounded up. Note: negative numbers should have their absolute value taken to still work.
+    function getRootRounded(num) {
+        return Math.ceil(Math.sqrt(Math.abs(num)));
+    }
 
+    console.log(getRootRounded(11));
 // 5. Create a getRandom function that returns a random number from 1-100.
 
 
@@ -72,4 +76,3 @@ Complete the following numbered tasks:
 // 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
 
 // 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.
-

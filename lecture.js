@@ -75,8 +75,8 @@ Make sure to code-along during lecture.
         console.log(sum);
     }
     // Invoking functions
-    hello();
-    addition(5, 7);
+    // hello();
+    // addition(5, 7);
     // add(5,7);
 
 
@@ -87,7 +87,7 @@ Make sure to code-along during lecture.
     function area(length, width) {
         return length * width;
     }
-    console.log(area(3,5));
+    // console.log(area(3,5));
 
     // Example Problem 2: we are given the area function, and now we want to compute volume given a height
     const volume = function(length, width, height) {
@@ -109,13 +109,70 @@ Make sure to code-along during lecture.
         return height * length * width;
     };
 
-    console.log(volumeArrow1(3, 5, 10));
-    console.log(volumeArrow2(3, 5, 10));
-    console.log(volumeArrow3(3, 5, 10));
+    // console.log(volumeArrow1(3, 5, 10));
+    // console.log(volumeArrow2(3, 5, 10));
+    // console.log(volumeArrow3(3, 5, 10));
 
 // 5. Numbers
+    // Power
+    // console.log(2**3)
+
+    // Increment
+    // let increment = 11;
+    // increment += 1;
+    // console.log(increment);
+
+    // Absolute
+    // console.log(Math.abs(-295));
+
+    // Random Number
+    // console.log(Math.ceil(Math.random() * 100));
+
+    // Conditional
+    // let exclusiveLowerBound = 7;
+    // console.log('actual is greater than exclusive lower bound:', 9 > exclusiveLowerBound);
+
+// 6. Strings     012345
+    // Index / Accessing Strings and length
+    // let myName = "Quincy";
+    //             // 0  1  2
+    // let myArr = [1, 5, 8];
+    // console.log(myName.length);
+    // console.log(myArr.length);
+
+    // let job = "Coordinator";
+    // job = "Director";
+    // console.log('job before reassignment:', job);
+
+    // Concat
+    // let firstName = "Alexis";
+    // let lastName = "Rose";
+    // let fullName = firstName + " " + lastName;
+
+    // console.log(fullName);
+
+    // String Interpolation
+    // let food = "churro";
+    // let methodOfTransport = "the subway";
+    // let sentence = "The best way to travel to get " + food + " is surely to take " + methodOfTransport;
+    // let interpolation = `The best way to trabel to get ${food} is surely to take ${methodOfTransport}`;
+
+    // console.log("Resulting sentence 1:", sentence);
+    // console.log("Resulting sentence 2:", interpolation);
+
+    // =============STRING METHODS =================
+    //               0123456789
+    // let subString = "JavaScript".substring(2,10);
+    // console.log(subString);
+    //            012345 
+    // let google = "Google";
+    // let subGoogle = google.indexOf('g');
+    // console.log(google[subGoogle]);
+    // console.log('index where substring is found:', subGoogle);
     
-// 6. Strings
+    let myName = "Quincy is \"cool\" \nother text goes here";
+    // console.log(myName.split(""));
+    console.log(myName);
 
 // 7. Arrays and Loops
 
