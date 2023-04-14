@@ -172,12 +172,107 @@ Make sure to code-along during lecture.
     
     let myName = "Quincy is \"cool\" \nother text goes here";
     // console.log(myName.split(""));
-    console.log(myName);
+    // console.log(myName);
 
-// 7. Arrays and Loops
+// 7. Arrays 
+        //   0  1        2      3
+let array = [1,"string", true];
+array[2] = "cat";
+array.unshift(23);
+let arraySlice = array.slice(0, 2);
 
-// 8. If Statements/Conditionals
 
-// 9. DOM Manipulation
+var array1 = [1, 2, 3];
+var array2 = ['a', 'b', 'c'];
+var array3 = ['do', 're', 'mi'];
 
-// 10. Events
+var resultOfConcat1 = array1.concat(array2).concat(array3);
+
+// console.log(resultOfConcat1);
+
+let text2 = "wordddd";
+text2 = text2.split("").join("");
+// text2 = text2.join("");
+
+// console.log(array3.indexOf('me'));
+
+// Nested Array || 2D Array || Multi-dimensional Array
+                //  0 1 2
+let nestedArray = [[1,2,3], // 0
+                   [4,5,6], // 1
+                   [7,8,[a, b, c]]] // 2
+
+        //   0 1 2
+// let array = [4,5,6];
+// console.log(array[1])
+// console.log(nestedArray[2][2][1]);
+
+// 8. and Loops
+
+    // For Loop
+    for(let index = 0; index <= 3; index++){ //0 1 2 3
+        // console.log(`cat ${index}`);
+    }
+
+    // For Loop through an array
+            //   0          1       2           3
+    // let cars = ["Toyota", "Honda", "Subaru", "Mazda"];
+    // let carText = "";
+    // let carText2 = "";
+
+    // carText += cars[0] + " ";
+    // carText += cars[1] + " ";
+    // carText += cars[2] + " ";
+    // carText += cars[3] + " ";
+    // console.log(carText);
+
+    
+    // for(let i = 0; i < cars.length; i++) {
+    //     carText2 += cars[i] + " ";
+    // }
+    // console.log(carText2);
+
+    // While Example Car (same as for loop refactored)
+    // let i = 0;
+    // while(i < cars.length) {
+    //     console.log(cars[i]);
+    //     i++;
+    // }
+
+    // While Example List (uses a boolean)
+    let list = [4, 5, 6];
+    
+    let j = 0;
+    while(list[j]) {
+        // console.log(list[j]);
+        j++;
+    }
+    
+
+    // For Each
+    let example = ['one', 'two', 'three'];
+    // example.forEach(function(elem, index) {
+    //     console.log(elem, index);
+    // });
+
+    // example.forEach((elem, index) => { console.log(elem, index)});
+
+
+    // Nested Arrays and Nested For Loops
+        let toyota = ["corolla", "camry", "prius"];
+        let honda = ["civic", "accord", "cr-z"];
+        let subaru = ["outback", "forrester", "wrx", "impreza", "brz"];
+    let cars = [toyota, honda, subaru];
+    // console.log(cars);
+
+
+    for(let i = 0; i < cars.length; i++) {
+        for(let j = 0; j < cars[i].length; j++) {
+            console.log(cars[i][j]);
+        }
+    }
+// 9. If Statements/Conditionals
+
+// 10. DOM Manipulation
+
+// 11. Events
