@@ -268,11 +268,75 @@ let nestedArray = [[1,2,3], // 0
 
     for(let i = 0; i < cars.length; i++) {
         for(let j = 0; j < cars[i].length; j++) {
-            console.log(cars[i][j]);
+            // console.log(cars[i][j]);
         }
     }
 // 9. If Statements/Conditionals
+let bool = true;
+let bool2 = true;
+
+if(bool) {
+    // console.log("do this code if bool is true");
+} else if(bool2) {
+    // console.log("try this else if next, this code if bool2 is true");
+} else {
+    // console.log("everything else goes here")
+}
 
 // 10. DOM Manipulation
 
 // 11. Events
+
+// 12. Objects //0  1   2   
+// const myArray = [];
+// console.log(myArray[2]);
+
+const person = {
+    name: "Quincy",
+    age:2222,
+    job:"developer"
+};
+
+const person2 = {
+    name: "Drake",
+    age:35,
+    job: "rapper"
+};
+
+function Person(name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+}
+
+const person3 = new Person("Nicki", 40, "rapper");
+
+const myCar = new Object();
+myCar.randomValueThatIsAConfusingName = true;
+// console.log(person3);
+
+
+function Bus(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
+};
+
+const myBus = new Bus('Eagle', 'Talon TSi', 1993);
+const kenscar = new Bus('Nissan', '300ZX', 1992);
+const vpgscar = new Bus('Mazda', 'Miata', 1990);
+const car1 = new Bus('Tesla', 'X', 2005);
+const car2 = new Bus('Subaru', 'Outback', 2020);
+const car3 = new Bus('Toyota', 'Camry', 2023);
+
+let carsArr = [myBus, kenscar, vpgscar, car1, car2, car3];
+for(let car of carsArr) {
+    if(car.year > 2019) {
+        // console.log(`This is a ${car.year} ${car.model}`);
+    }
+}
+
+
+
+
+// console.log(person.hometown, person2.hometown);
